@@ -1,0 +1,6 @@
+ap=float(input("digite a altura da parede(em metros)"))
+lp=float(input("digite a largura da parede(em metros)"))
+aa=float(input("digite a altura do azulejo(em metros)"))
+la=float(input("digite a largura do azulejo(em metros)"))
+qa=(ap*la)/(aa*la)
+print("a quantidade de azulejos necessária será de",'%.2f'%qa)
