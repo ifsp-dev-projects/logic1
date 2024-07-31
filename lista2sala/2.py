@@ -6,7 +6,7 @@ if m>=6:
     print ("aluno APROVADO com média:", '%.2f' %m)
 else:
     e2=float(input("Digite a nota do exame de recuperação:"))
-    nm=e2+m
+    nm=(e2+m)/2
     if nm>=5:
         print("aluno APROVADO com média:", '%.2f' %nm)
     else:
