@@ -42,7 +42,7 @@ while True:
         elif n >= 1000:
             faixa = "faixa 4"
         else:
-            continue  # Ignorar números fora das faixas definidas
+            continue 
 
         faixas[faixa]["contagem"] += 1
         faixas[faixa]["soma"] += n
