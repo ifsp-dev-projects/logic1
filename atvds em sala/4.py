@@ -1,0 +1,5 @@
+tupla=tuple(range(10,60,10))
+print(tupla[3])
+print(20 in tupla)
+print(tupla)
+print(list(tupla))

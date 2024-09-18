@@ -1,0 +1,5 @@
+lista=list(range(1,11))
+lista.append(11)
+lista.remove(5)
+lista.reverse()
+print(lista)
