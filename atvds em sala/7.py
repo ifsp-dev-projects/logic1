@@ -1,6 +1,6 @@
 def bhaskara(a, b, c):
     if a != 0:
-        delta = (b**2) - (4*a*c)
+        delta = (b**2) -4*a*c
         if delta < 0:
             return "Esta equação não possui solução real."
         elif delta == 0:
